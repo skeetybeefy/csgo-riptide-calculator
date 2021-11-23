@@ -1,0 +1,32 @@
+section {
+    padding: 0 4px;
+    min-height: 60vh;
+    font-size: large;
+    font-weight: 500;
+}
+
+.error-img {
+    display: block;
+    margin: 10px auto;
+    width: 64px;
+    height: 64px;
+}
+
+.loading-msg {
+    margin: 50px 0;
+}
+
+section > p {
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .error-img {
+        width: 128px;
+        height: 128px;
+    }
+
+    section {
+        min-height: 70vh;
+    }
+}

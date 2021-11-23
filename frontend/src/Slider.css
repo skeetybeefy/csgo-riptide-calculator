@@ -1,0 +1,17 @@
+.slider {
+    height: 210px;
+    padding: 10px 30px;
+    background: url("./assets/riptide.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 1px 1px black;
+}
+
+h2, h4 {
+    text-shadow: 1px 1px 1px black;
+}
+
+.highlighted {
+    color: #ff8b8b;
+}

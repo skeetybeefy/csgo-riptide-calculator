@@ -1,0 +1,34 @@
+.reward {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 5px 10px;
+    border: 2px solid rgba(255, 139, 139, 0.2);
+    border-radius: 10px;
+    margin-top: 8px;
+    font-size: medium;
+}
+
+.first {
+    border: 2px solid #ff8b8b;
+}
+
+.reward-type, .reward-profit {
+    margin: auto 0;
+}
+
+.reward-profit {
+    line-height: 60px;
+    flex-basis: max-content;
+}
+
+@media (min-width: 1024px) {
+    .reward {
+        width: 50vw;
+        height: 80px;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: large;
+        border-radius: 16px;
+    }
+}
